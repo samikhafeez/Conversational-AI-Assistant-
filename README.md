@@ -280,7 +280,7 @@ curl -X POST http://localhost:8000/api/v1/chat/message \
 
 ## Screenshots
 
-> _Add screenshots of the Streamlit chat UI and the `/docs` API explorer here._
+![alt text](image.png)
 
 ---
 
