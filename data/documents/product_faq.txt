@@ -1,0 +1,90 @@
+PRODUCT FAQ — TechFlow SaaS Platform
+=====================================
+
+## Pricing & Plans
+
+### What plans are available?
+TechFlow offers three plans:
+- Starter: $29/month — up to 3 users, 10 GB storage, email support.
+- Professional: $79/month — up to 20 users, 100 GB storage, priority support, API access.
+- Enterprise: Custom pricing — unlimited users, dedicated storage, 24/7 phone support, SLA guarantee.
+
+### Is there a free trial?
+Yes. All plans include a 14-day free trial with no credit card required. You get full access to Professional features during the trial period.
+
+### Can I change my plan at any time?
+Yes, you can upgrade or downgrade your plan at any time from your Account Settings > Billing page. Upgrades take effect immediately; downgrades apply at the next billing cycle.
+
+### Do you offer discounts?
+- Annual billing: 20% discount versus monthly pricing.
+- Non-profits: 30% discount with verification.
+- Students/educators: 50% discount with a valid .edu email address.
+
+---
+
+## Account & Access
+
+### How do I reset my password?
+1. Go to the login page at app.techflow.io/login.
+2. Click "Forgot Password?"
+3. Enter your registered email address.
+4. Check your inbox for a reset link (valid for 24 hours).
+5. Click the link and enter a new password.
+
+If you don't receive the email within 5 minutes, check your spam folder or contact support@techflow.io.
+
+### How do I add team members?
+Navigate to Settings > Team Management > Invite Members. Enter the email addresses of your team members and assign their roles (Admin, Editor, or Viewer). They'll receive an invitation email within a few minutes.
+
+### What happens if I exceed my storage limit?
+You'll receive an email warning at 80% and 95% usage. If you reach 100%, new uploads will be paused until you either delete files or upgrade your plan. Your existing data is never deleted automatically.
+
+---
+
+## Technical & Integrations
+
+### Which integrations does TechFlow support?
+TechFlow natively integrates with:
+- Slack (notifications and commands)
+- Google Workspace (Drive, Sheets, Calendar)
+- Microsoft 365 (Teams, OneDrive, Outlook)
+- Zapier (5,000+ app connections)
+- REST API with OAuth 2.0 for custom integrations
+
+### Is there an API?
+Yes. Professional and Enterprise plans include full REST API access. Documentation is available at docs.techflow.io/api. Rate limits: 1,000 requests/hour on Professional, unlimited on Enterprise.
+
+### What browsers are supported?
+TechFlow supports the latest two major versions of Chrome, Firefox, Safari, and Edge. Internet Explorer is not supported.
+
+---
+
+## Support & Reliability
+
+### How do I contact support?
+- Live chat: Available in-app (bottom-right corner), Monday–Friday 9am–6pm EST.
+- Email: support@techflow.io (response within 4 business hours for Professional, 1 hour for Enterprise).
+- Phone: Enterprise customers only — your dedicated account manager's number is in your welcome email.
+
+### What is the uptime SLA?
+- Starter / Professional: 99.9% uptime (planned maintenance excluded).
+- Enterprise: 99.99% uptime with financial credits for downtime breaches.
+
+### Where is my data stored?
+All data is stored in AWS data centres in US-East (primary) and EU-West (backup). Enterprise customers can request a dedicated EU-only or APAC region deployment.
+
+### Is TechFlow GDPR compliant?
+Yes. TechFlow is fully GDPR, SOC 2 Type II, and ISO 27001 certified. A Data Processing Agreement (DPA) is available for all customers upon request.
+
+---
+
+## Billing & Cancellation
+
+### How do I cancel my subscription?
+Go to Settings > Billing > Cancel Subscription. Your access continues until the end of the current billing period. We do not offer refunds for partial months.
+
+### What payment methods are accepted?
+Visa, Mastercard, American Express, and bank transfer (Enterprise only). All payments are processed securely via Stripe.
+
+### Will I receive invoices?
+Yes. Invoices are emailed automatically each billing cycle and are also available for download in Settings > Billing > Invoice History.

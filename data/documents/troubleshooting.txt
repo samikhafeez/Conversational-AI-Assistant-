@@ -1,0 +1,79 @@
+TROUBLESHOOTING GUIDE — TechFlow Support
+=========================================
+
+## Login Issues
+
+### I can't log in — "Invalid credentials" error
+1. Double-check your email address for typos.
+2. Try resetting your password (see FAQ).
+3. Clear your browser cache and cookies, then try again.
+4. Disable any browser extensions (especially password managers that auto-fill incorrectly).
+5. If using SSO (Google/Microsoft), ensure you're using the correct organisation account.
+
+### My account is locked
+Accounts are locked after 5 failed login attempts. Wait 30 minutes for the automatic unlock, or contact support@techflow.io with your account email to unlock it immediately.
+
+### Two-factor authentication is not working
+- Ensure the time on your phone is synchronised (use automatic time settings).
+- If you've lost access to your authenticator app, use one of the backup codes provided during 2FA setup.
+- If backup codes are unavailable, contact support with photo ID for account recovery.
+
+---
+
+## Performance Issues
+
+### The application is running slowly
+1. Check your internet connection speed (minimum 5 Mbps recommended).
+2. Try a different browser to isolate browser-specific issues.
+3. Disable browser extensions one by one to find conflicts.
+4. Clear browser cache (Ctrl+Shift+Delete on most browsers).
+5. Check status.techflow.io for any ongoing incidents.
+
+### File uploads are failing
+- Maximum file size: 500 MB per file, 2 GB per upload session.
+- Supported formats: PDF, DOCX, XLSX, PNG, JPG, MP4, ZIP.
+- Ensure your storage quota is not full (check Settings > Storage).
+- Try uploading over a wired connection rather than Wi-Fi.
+- If the issue persists, try the TechFlow desktop app.
+
+### Notifications are not arriving
+1. Check your notification preferences under Settings > Notifications.
+2. Ensure TechFlow emails are not filtered to spam.
+3. Add noreply@techflow.io to your safe-sender list.
+4. For Slack notifications, re-authorise the TechFlow Slack app.
+
+---
+
+## Data & Sync Issues
+
+### My data is not syncing across devices
+1. Log out and back in on the affected device to force a sync.
+2. Check that you are connected to the internet.
+3. Ensure you are using the same account on all devices.
+4. Force-refresh the page (Ctrl+Shift+R / Cmd+Shift+R).
+
+### I accidentally deleted a file
+Files deleted within the last 30 days can be recovered from the Trash (left sidebar > Trash > Restore). Files older than 30 days are permanently deleted and cannot be recovered.
+
+### Data export
+Export all your data from Settings > Privacy > Export Data. You'll receive a .zip file via email within 2 hours containing all your files and metadata in standard formats.
+
+---
+
+## Integration Issues
+
+### My Slack integration stopped working
+1. Go to Settings > Integrations > Slack and click Reconnect.
+2. Re-authorise TechFlow in your Slack workspace settings.
+3. Check that the TechFlow Slack app is not restricted by your workspace admin.
+
+### API returning 401 Unauthorised
+- Your API key may have expired. Regenerate it from Settings > Developer > API Keys.
+- Ensure you're passing the key in the Authorization header: `Bearer YOUR_API_KEY`.
+- Check that your IP is not blocked in the API allowlist (Enterprise feature).
+
+### Zapier automation is not triggering
+1. Verify the trigger conditions in your Zap are correct.
+2. Re-authenticate TechFlow inside Zapier.
+3. Check Zapier's task history for specific error messages.
+4. Ensure your TechFlow account has API access (Professional plan or above).
